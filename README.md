@@ -1662,7 +1662,7 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 - [Teamscale](https://teamscale.com) :copyright: — Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
 
-- [TencentCodeAnalysis](https://tca.tencent.com/) — Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.
+- **TencentCodeAnalysis** :warning: — Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.
 
 - [ThreatMapper](https://github.com/deepfence/ThreatMapper) — Vulnerability Scanner and Risk Evaluation for containers, serverless and hosts at runtime. ThreatMapper generates runtime BOMs from dependencies and operating system packages, matches against multiple threat feeds, scans for unprotected secrets, and scores issues based on severity and risk-of-exploit.
 
@@ -2296,7 +2296,7 @@ It does this by running periodic diff outputs against heuristically crafted rege
 
 - [Grype](https://github.com/anchore/grype) — Vulnerability scanner for container images and filesystems. Developed by Anchore, it scans container images, directories, and archives for known vulnerabilities. Supports multiple image formats, SBOM integration, and VEX (Vulnerability Exploitability eXchange) for accurate vulnerability assessment. Works with various vulnerability databases and provides detailed reporting.
 
-- [HasMySecretLeaked](https://gitguardian.com/hasmysecretleaked) :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
+- **HasMySecretLeaked** :warning: :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
 
 - **iblessing** :warning: — iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
 
@@ -2461,7 +2461,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [GitGuardian ggshield](https://www.gitguardian.com/ggshield) — ggshield is a CLI application that runs in your local environment  or in a CI environment to help you detect more than 350+ types of secrets,  as well as other potential security vulnerabilities or policy breaks affecting your codebase.
 
-- [HasMySecretLeaked](https://gitguardian.com/hasmysecretleaked) :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
+- **HasMySecretLeaked** :warning: :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
 
 
 ## More Collections
