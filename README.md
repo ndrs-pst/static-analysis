@@ -1062,8 +1062,6 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [phpDocumentor](https://www.phpdoc.org) — Analyzes PHP source code to generate documentation.
 
-- [phploc](https://github.com/sebastianbergmann/phploc) — A tool for quickly measuring the size and analyzing the structure of a PHP project.
-
 - [PHPMD](https://phpmd.org) — Finds possible bugs in your code.
 
 - [PhpMetrics](http://www.phpmetrics.org) — Calculates and visualizes various code quality metrics.
@@ -1168,6 +1166,10 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 
 - **phpdoc-to-typehint** :warning: — Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
+
+
+
+- **phploc** :warning: — A tool for quickly measuring the size and analyzing the structure of a PHP project.
 
 
 
