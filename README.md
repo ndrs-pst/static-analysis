@@ -1027,8 +1027,6 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 * ✨ Compatible: PHP >= 7.2
 
 
-- [dephpend](https://github.com/mihaeu/dephpend) — Dependency analysis tool.
-
 - [deptrac](https://github.com/sensiolabs-de/deptrac) — Enforce rules for dependencies between software layers.
 
 - [EasyCodingStandard](https://www.tomasvotruba.com/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines) — Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
@@ -1090,6 +1088,10 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 <summary>Show Deprecated</summary>
 
 - **CakeFuzzer** :warning: — Web application security testing tool for CakePHP-based web applications. CakeFuzzer employs a predefined set of attacks that are randomly modified before execution. Leveraging its deep understanding of the Cake PHP framework, Cake Fuzzer launches attacks on all potential application entry points.
+
+
+
+- **dephpend** :warning: — Dependency analysis tool.
 
 
 
@@ -1446,6 +1448,8 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [flog](https://ruby.sadi.st/Flog.html) — Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 
+- [htmlbeautifier](https://github.com/threedaymonk/htmlbeautifier) — A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
+
 - [rails_best_practices](https://rails-bestpractices.com) — A code metric tool for Rails projects
 
 - [reek](https://github.com/troessner/reek) — Code smell detector for Ruby.
@@ -1490,10 +1494,6 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 
 - **Fukuzatsu** :warning: — A tool for measuring code complexity in Ruby class files. Its analysis generates scores based on cyclomatic complexity algorithms with no added "opinions".
-
-
-
-- **htmlbeautifier** :warning: — A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
 
 
 
@@ -1588,6 +1588,8 @@ Kani verifies:
 
 - [lockbud](https://github.com/BurtonQin/lockbud) — Statically detects Rust deadlocks bugs. It currently detects two common kinds of deadlock bugs: doublelock and locks in conflicting order. It will print bugs in JSON format together with the source code location and an explanation of each bug.
 
+- [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) — A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
+
 - [Rudra](https://github.com/sslab-gatech/Rudra) — Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.
 
 - [rust-analyzer](https://rust-analyzer.github.io) — Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings.
@@ -1643,10 +1645,6 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 
 - **prae** :warning: — Provides a convenient macro that allows you to generate type wrappers  that promise to always uphold arbitrary invariants that you specified. 
-
-
-
-- **Prusti** :warning: — A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
 
 
 
@@ -2667,6 +2665,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) — Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
+- [zanadir](https://mustachecase.github.io/) — Audits CI configuration (GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, Jenkins) for missing security and quality controls such as SCA, secrets detection, SAST, IaC and workflow security, and grades whether each present control can actually fail the build (continue-on-error, || true, --exit-code 0, push-only triggers). Outputs table, JSON, SARIF or Markdown and prints CI snippets for the gaps.
+
 - [zizmor](https://zizmor.sh) — Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.
 
 
@@ -2724,16 +2724,14 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [ERB Lint](https://github.com/Shopify/erb-lint) — Lint your ERB or HTML files
 
+- [htmlbeautifier](https://github.com/threedaymonk/htmlbeautifier) — A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
+
 
 
 <details>
 <summary>Show Deprecated</summary>
 
 - **ERB::Formatter** :warning: — Format ERB files with speed and precision.
-
-
-
-- **htmlbeautifier** :warning: — A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
 
 </details>
 
@@ -2765,6 +2763,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [ERB Lint](https://github.com/Shopify/erb-lint) — Lint your ERB or HTML files
 
 - [HTML-Validate](https://html-validate.org/) — Offline HTML5 validator.
+
+- [htmlbeautifier](https://github.com/threedaymonk/htmlbeautifier) — A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
 
 - [HTMLHint](https://htmlhint.com) — A Static Code Analysis Tool for HTML.
 
@@ -2802,10 +2802,6 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 
 - **HTML Tidy** :warning: — Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
-
-
-
-- **htmlbeautifier** :warning: — A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
 
 </details>
 
@@ -2943,8 +2939,6 @@ but with the following improvements:
 
 - [markdownlint](https://github.com/DavidAnson/markdownlint) — Node.js -based style checker and lint tool for Markdown/CommonMark files.
 
-- [mdformat](https://mdformat.rtfd.io) — CommonMark compliant Markdown formatter
-
 - [mdl](https://github.com/mivok/markdownlint) — A tool to check Markdown files and flag style issues.
 
 - [mdsf](https://github.com/hougesen/mdsf) — Format markdown code blocks using your favorite code formatters.
@@ -2954,6 +2948,15 @@ but with the following improvements:
 - [skillsaw](https://skillsaw.org/) — Configurable linter for the files that steer AI coding agents, including skills, plugins, instruction files, hooks, and related configuration. Detects structural, content-quality, and security issues and provides deterministic autofixes, baselines, and CI-ready output.
 
 - [textlint](https://textlint.github.io/) — textlint is an open source text linting utility written in JavaScript.
+
+
+
+<details>
+<summary>Show Deprecated</summary>
+
+- **mdformat** :warning: — CommonMark compliant Markdown formatter
+
+</details>
 
 
 
@@ -3221,6 +3224,8 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [Tsunami Security Scanner](https://github.com/google/tsunami-security-scanner) — A general purpose network security scanner with an extensible plugin system for  detecting high severity RCE-like vulnerabilities with high confidence. Custom detectors for finding vulnerabilities (e.g. open APIs) can be added.
 
+- [zanadir](https://mustachecase.github.io/) — Audits CI configuration (GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, Jenkins) for missing security and quality controls such as SCA, secrets detection, SAST, IaC and workflow security, and grades whether each present control can actually fail the build (continue-on-error, || true, --exit-code 0, push-only triggers). Outputs table, JSON, SARIF or Markdown and prints CI snippets for the gaps.
+
 - [zizmor](https://zizmor.sh) — Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.
 
 
@@ -3443,6 +3448,8 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [yamllint](https://yamllint.readthedocs.io) — Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
+- [zanadir](https://mustachecase.github.io/) — Audits CI configuration (GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, Jenkins) for missing security and quality controls such as SCA, secrets detection, SAST, IaC and workflow security, and grades whether each present control can actually fail the build (continue-on-error, || true, --exit-code 0, push-only triggers). Outputs table, JSON, SARIF or Markdown and prints CI snippets for the gaps.
+
 - [zizmor](https://zizmor.sh) — Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.
 
 
@@ -3454,6 +3461,8 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 - [commitlint](https://commitlint.js.org) — checks if your commit messages meet the conventional commit format
 
 - [GitGuardian ggshield](https://www.gitguardian.com/ggshield) — ggshield is a CLI application that runs in your local environment  or in a CI environment to help you detect more than 350+ types of secrets,  as well as other potential security vulnerabilities or policy breaks affecting your codebase.
+
+- [GitStats](https://github.com/shenxianpeng/gitstats) — Generates a static HTML report from a Git repository's history: activity, authors, code ownership, hotspots and bus factor, file churn, tags and lines of code over time. It also counts the commits that name an AI coding assistant (agent accounts, Co-authored-by and Assisted-by lines). Works on any Git repository with only git and Python, writes JSON, compares several repositories, and runs as a GitHub Action.
 
 - [HasMySecretLeaked](https://gitguardian.com/hasmysecretleaked) :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
 

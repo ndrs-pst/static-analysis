@@ -5741,7 +5741,7 @@
     "plans": null,
     "description": "Dependency analysis tool.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8539,6 +8539,33 @@
     "demos": null,
     "wrapper": null
   },
+  "gitstats": {
+    "name": "GitStats",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "git"
+    ],
+    "licenses": [
+      "GPL-2.0-only OR GPL-3.0-only"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/shenxianpeng/gitstats",
+    "source": "https://github.com/shenxianpeng/gitstats",
+    "pricing": null,
+    "plans": null,
+    "description": "Generates a static HTML report from a Git repository's history: activity, authors, code ownership, hotspots and bus factor, file churn, tags and lines of code over time. It also counts the commits that name an AI coding assistant (agent accounts, Co-authored-by and Assisted-by lines). Works on any Git repository with only git and Python, writes JSON, compares several repositories, and runs as a GitHub Action.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "gixy": {
     "name": "gixy",
     "categories": [
@@ -9966,7 +9993,7 @@
     "plans": null,
     "description": "A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12573,7 +12600,7 @@
     "plans": null,
     "description": "CommonMark compliant Markdown formatter",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16101,7 +16128,7 @@
     "plans": null,
     "description": "A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -23711,6 +23738,35 @@
     "description": "Javascript code metrics.",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "zanadir": {
+    "name": "zanadir",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "ci",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://mustachecase.github.io/",
+    "source": "https://github.com/MustacheCase/zanadir",
+    "pricing": null,
+    "plans": null,
+    "description": "Audits CI configuration (GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, Jenkins) for missing security and quality controls such as SCA, secrets detection, SAST, IaC and workflow security, and grades whether each present control can actually fail the build (continue-on-error, || true, --exit-code 0, push-only triggers). Outputs table, JSON, SARIF or Markdown and prints CI snippets for the gaps.",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
