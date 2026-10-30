@@ -3403,16 +3403,16 @@
     "types": [
       "service"
     ],
-    "homepage": "https://www.code-intelligence.com",
+    "homepage": "https://github.com/CodeIntelligenceTesting",
     "source": null,
-    "pricing": "https://www.code-intelligence.com/product-pricing",
+    "pricing": null,
     "plans": {
       "free": false,
       "oss": true
     },
     "description": "CI/CD-agnostic DevSecOps platform which combines industry-leading fuzzing engines for finding bugs and visualizing code coverage",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "Code Intelligence | Introduction",
@@ -3884,7 +3884,7 @@
       "cli",
       "ide-plugin"
     ],
-    "homepage": "https://codeque.co",
+    "homepage": "https://github.com/codeque-co/codeque",
     "source": "https://github.com/codeque-co/codeque",
     "pricing": null,
     "plans": null,
@@ -3894,11 +3894,11 @@
     "resources": [
       {
         "title": "Documentation",
-        "url": "https://codeque.co/docs"
+        "url": "https://github.com/codeque-co/codeque#readme"
       },
       {
         "title": "Visual Studio Code Extension",
-        "url": "https://codeque.co/r/vsc"
+        "url": "https://marketplace.visualstudio.com/items?itemName=CodeQue.codeque"
       },
       {
         "title": "CLI via NPM",
@@ -7442,7 +7442,7 @@
     "plans": null,
     "description": "A JavaScript compiler and TypeScript checker written in Rust with a focus on static analysis and runtime performance. Ezno's type checker is built from scratch.  The checker is fully compatible with TypeScript type annotations and can work without any type annotations at all.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8190,6 +8190,42 @@
     "demos": null,
     "wrapper": null
   },
+  "frame": {
+    "name": "Frame",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "java",
+      "javascript",
+      "python",
+      "typescript"
+    ],
+    "other": [
+      "security",
+      "uses-llm"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/lambdasec/frame",
+    "source": "https://github.com/lambdasec/frame",
+    "pricing": null,
+    "plans": null,
+    "description": "Security scanner that pairs taint analysis with separation-logic checks in Z3, plus an optional LLM layer. Symbolic frontends cover Python, Java, JavaScript/TypeScript, C/C++ and C#. LLM findings are reported in a separate tier from symbolic ones, and the LLM layer runs on any OpenAI-compatible endpoint, including a local one.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "freeplane-code-explorer": {
     "name": "Freeplane Code Explorer",
     "categories": [
@@ -8234,8 +8270,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://catless.ncl.ac.uk/Programs/Frink",
-    "source": "http://catless.ncl.ac.uk/Programs/Frink",
+    "homepage": "https://catless.ncl.ac.uk/Programs/Frink/",
+    "source": "https://catless.ncl.ac.uk/Programs/Frink/",
     "pricing": null,
     "plans": null,
     "description": "A Tcl formatting and static check program (can prettify the program, minimise, obfuscate or just sanity check it).",
@@ -10177,7 +10213,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://www.hex-rays.com/products/ida/support/download_freeware",
+    "homepage": "https://hex-rays.com/ida-free",
     "source": null,
     "pricing": null,
     "plans": null,
@@ -19762,7 +19798,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://sonarlint.org",
+    "homepage": "https://www.sonarsource.com/products/sonarqube/ide/",
     "source": "https://github.com/SonarSource/sonarlint-intellij",
     "pricing": null,
     "plans": null,
@@ -21390,7 +21426,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://ternjs.net",
+    "homepage": "https://ternjs.github.io/",
     "source": "https://github.com/ternjs/tern",
     "pricing": null,
     "plans": null,
@@ -22263,7 +22299,7 @@
     "plans": null,
     "description": "CLI to generate an interactive graph of functions and calls from your TypeScript files",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
