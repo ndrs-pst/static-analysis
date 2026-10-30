@@ -8414,7 +8414,7 @@
     "plans": null,
     "description": "The GCC compiler has static analysis capabilities since version 10. This option is only available if GCC was configured with analyzer support enabled.  It can also output its diagnostics to a JSON file in the SARIF format (from v13).",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9867,23 +9867,26 @@
     "categories": [
       "linter"
     ],
-    "languages": [],
-    "other": [
-      "binary"
+    "languages": [
+      "groovy",
+      "java",
+      "kotlin",
+      "scala"
     ],
+    "other": [],
     "licenses": [
-      "proprietary"
+      "Apache License 2.0"
     ],
     "types": [
-      "gui"
+      "cli"
     ],
-    "homepage": "https://www.hopperapp.com/",
-    "source": null,
+    "homepage": "https://github.com/cuplv/hopper",
+    "source": "https://github.com/cuplv/hopper",
     "pricing": null,
     "plans": null,
-    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
+    "description": "A static analysis tool written in scala for languages that run on JVM.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
