@@ -1,5 +1,6 @@
 name: Pixee
 categories:
+  - linter
 tags:
   - java
   - python
